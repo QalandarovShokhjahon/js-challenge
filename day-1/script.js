@@ -166,6 +166,231 @@ console.log(2 ** 3);
 // }
 // console.log(seriesDB);
 
-console.log(7 == '7');
-console.log(7 === '7');
 
+
+// TAQQOSLASH OPERATORLARI
+// console.log(`4 > 3 = ${4 > 3}`);
+// console.log(`4 < 3 = ${4 < 3}`);
+// console.log(`4 >= 4 = ${4 >= 4}`);
+// console.log(`7 <= 8 = ${7 <= 8}`);
+// console.log(`7 == 7 = ${7 == '7'}`);
+// console.log(`7 === 7 = ${7 === '7'}`);
+// console.log(`7 != 8 = ${7 != '8'}`);
+// console.log(`7 !== 8 = ${7 !== '8'}`);
+
+
+// IF ELSE
+// let yosh = +prompt("Necha yoshdasiz? ");
+
+// if (yosh > 18) {
+//     alert("Saytga hush kelibsiz")
+// } else {
+//     alert("Saytga kirish taqiqlanadi!")
+// }
+
+// let kasb = prompt("Kasbingizni kirting");
+
+// if (kasb == "dasturlash") {
+//     alert("Saytimiz siz uchun")
+// } else {
+//     alert("Uzur saytimiz faqat dasturchilar uchun")
+// }
+
+// let yosh = +prompt("Yoshingizni kiriting! ");
+
+// if(yosh >= 18) {
+//     alert("Saytimizda qo'rqinchli filmlar ko'rishingiz mumkin");
+// } else if(yosh >= 16) {
+//     alert("Saytimizda jangari filmlar kurishingiz mumkin")
+// } else {
+//     alert("Saytimizda multifilmlar kurishingiz mumkin")
+// }
+
+// let son = +prompt("Ixtiyoriy son kirting ");
+
+// if(son > 100) {
+//     alert(`${son} soni 100 dan katta`);
+// } else if(son < 100) {
+//     alert(`${son} soni 100 dan kichik`);
+// } else {
+//     alert(`${son} soni 100 ga teng`);
+// }
+
+// let son = +prompt("Ixtiyoriy son kirting ");
+
+// if (son > 0) {
+//     alert(`${son} soni musbat`)
+// } else if(son < 0) {
+//     alert(`${son} soni manfiy`)
+// } else {
+//     alert(`${son} soni musbat ham emas manfiy ham emas`)
+// }
+
+// let son = +prompt("Ixtiyoriy son kirting ");
+
+// if(son % 2 === 0) {
+//     alert(`${son} juft son`)
+// } else{
+//     alert(`${son} toq son`)
+// }
+
+
+// MANTIQIY OPERATORLAR
+
+// VA &&
+// let yosh = +prompt("Yoshingizni kiriting.")
+
+// if (yosh >= 18 && yosh < 65) {
+//   alert("Mashina haydash mumkin.")
+// } else {
+//   alert("Mashina haydash mumkin emas.")
+// }
+
+// YOKI ||
+// let yosh = prompt("Yoshingizni kiriting.")
+// let ism = prompt("Ismingizni kiriting.")
+
+// if (yosh >= 18 || ism == "Joe") {
+//   alert("Mashina haydash mumkin.")
+// } else {
+//   alert("Mashina haydash mumkin emas.")
+// }
+
+// let son = +prompt("Oy raqamlarini (1-12) oraligida kiriting ");
+
+// if(son === 12 || son === 1 || son === 2) {
+//     alert("Qish fasli")
+// } else if(son === 3 || son === 4 || son === 5) {
+//     alert("Bahor fasli")
+// } else if(son === 6 || son === 7 || son === 8) {
+//     alert("Yoz fasli")
+// } else if(son === 9 || son === 10 || son === 11) {
+//     alert("Kuz fasli")
+// } else {
+//     alert("Notugri oy raqami kiritildi")
+// }
+
+// let yosh = +prompt("Yoshingizni kiriting: ");
+// let ruxsatnoma = confirm("Ruxsatnomangiz bormi? ");
+
+// if(yosh > 18 && yosh < 60 && ruxsatnoma === true) {
+//     alert("Kirish mumkin")
+// } else {
+//     alert("Kirish mumkin emas")
+// }
+
+
+// FOR LOOP
+// for(let i = 1; i <= 20; i++) {
+//     console.log(i);
+    
+// }
+
+// for (let i = 1; i <= 50; i++) {
+//     if(i % 3 === 0 || i % 5 === 0) {
+//         console.log(i); 
+//     }
+// }
+
+// let sum = 0;
+// for (let i = 1; i <= 5; i++) {
+//     sum += i; // sum = sum + i
+// }
+// console.log("Yig'indisi " + sum);
+
+
+// BREAK
+// for (let i = 0; i < 10; i++ ) {
+//     if(i === 5) {
+//         console.log("Lop to'xtatildi, chunki i = 5");
+//         break;
+//     }
+//     console.log(i); 
+// }
+
+
+// CONTINUE
+// for (let i = 0; i < 10; i++) {
+//     if(i % 2 !== 0) { //Agar i toq bo'lsa
+//         continue; //Toq sonlarni o'tkazib yuboradi
+//     }
+//     console.log(i); //Faqat juft sonlarni chop etadi
+// }
+
+// let a = 10;
+// let sum = 0;
+// for (let i = 0; i <= a; i++) {
+//     sum += i;
+// }
+// console.log(sum);
+
+// let a = 10;
+// let sum = 0;
+// for(let i = 0; i <= a; i++) {
+//     if(i % 2 === 0 ) {
+//         sum += i;
+//     }
+//     console.log(sum); 
+// }
+
+// let a = 10;
+// let sum = 0;
+// for(let i = 0; i <= a; i++) {
+//     if(i % 2 !== 0) { //toq son
+//         sum += i; // yig'indiga qo'shish
+//     }
+// }
+// console.log(sum);
+
+// let a = 35;
+// let sum = 0;
+// for(let i = 0; i <= a; i++) {
+//     if(i % 5 === 0) {
+//         sum += i;
+//     }
+// }
+// console.log(sum);
+
+// let a = prompt("Iltimos, bir son kiriting:");
+// a = Number(a);  // prompt string qaytaradi, numberga aylantiramiz
+
+// // Odd yoki Even tekshirish
+// let type = (a % 2 === 0) ? "Juft son" : "Toq son";
+
+// // 3 ga bo‘linishini tekshirish
+// let div3 = (a % 3 === 0) ? "3 ga bo‘linadi" : "3 ga bo‘linmaydi";
+
+// // 5 ga bo‘linishini tekshirish
+// let div5 = (a % 5 === 0) ? "5 ga bo‘linadi" : "5 ga bo‘linmaydi";
+
+// // Natijani chiroyli alert bilan chiqarish
+// alert(`Siz kiritgan son: ${a}\n${type}\n${div3}\n${div5}`);
+
+
+
+let a = prompt("Iltimos, biror son kiriting:");
+a = Number(a);  // prompt string qaytaradi, numberga aylantiramiz
+
+let sumEven = 0;
+let sumOdd = 0;
+let sumFive = 0;
+
+for (let i = 0; i <= a; i++) {
+    if (i % 2 === 0) {
+        sumEven += i;
+    } else {
+        sumOdd += i;
+    }
+
+    if (i % 5 === 0) {
+        sumFive += i;
+    }
+}
+
+// Chiroyli alert bilan chiqaramiz
+alert(
+  `Siz kiritgan a = ${a}\n` +
+  `Juft sonlar yig'indisi: ${sumEven}\n` +
+  `Toq sonlar yig'indisi: ${sumOdd}\n` +
+  `5 ga bo'linadigan sonlar yig'indisi: ${sumFive}`
+);
